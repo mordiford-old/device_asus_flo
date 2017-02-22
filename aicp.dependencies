@@ -1,0 +1,10 @@
+[
+ {
+   "repository": "LineageOS/android_external_stlport",
+   "target_path": "external/stlport"
+ },
+ {
+   "repository": "LineageOS/android_kernel_google_msm",
+   "target_path": "kernel/google/msm"
+ }
+]
