@@ -15,6 +15,9 @@
 # Inherit some common AICP stuff.
 $(call inherit-product, vendor/aicp/configs/common_mini_tablet_wifionly.mk)
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/flo/device.mk)
 
